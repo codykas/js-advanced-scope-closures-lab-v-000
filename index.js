@@ -7,7 +7,7 @@ function produceDrivingRange(max){
     }
     else {
       trip = max - dist
-      return "within range by" + `${trip}`
+      return "within range by " + `${trip}`
     }
   }
 }
