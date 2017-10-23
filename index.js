@@ -3,7 +3,7 @@ function produceDrivingRange(max){
     dist = Math.abs(parseInt(finish) - parseInt(start))
     if (dist > max){
       over = dist - max
-      return `${over}` + "blocks out of range"
+      return `${over}` + " blocks out of range"
     }
     else {
       trip = max - dist
